@@ -1,0 +1,21 @@
+# EEG data files - too large for git
+*.eeg
+*.fif
+*.edf
+*.vhdr
+*.vmrk
+*.bdf
+
+# Dataset folders
+epilepsy_ieeg_data/
+pipeline_outputs/
+mne_data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
