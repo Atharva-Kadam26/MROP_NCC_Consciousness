@@ -19,3 +19,45 @@ venv/
 
 # OS
 .DS_Store
+
+# Additional EEG datasets
+harvard_data/
+harvard_data_*/
+test_subject*/
+datasets/
+data/
+
+# Generated outputs
+outputs/
+results/
+pipeline_outputs/
+checkpoints/
+logs/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Python environments and caches
+env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
